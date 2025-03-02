@@ -8,6 +8,13 @@ const imageURLs = [
     "https://i.imgur.com/RIZ3oO2.png",
     "https://i.imgur.com/5Likj4E.png",
     "https://i.imgur.com/6Ehjz5d.png",
+    "https://i.imgur.com/rIXat4l.jpeg",
+    "https://i.imgur.com/VsVIVbv.jpeg",
+    "https://i.imgur.com/RfcHcGh.jpeg",
+    "https://i.imgur.com/RY2vPhA.jpeg",
+    "https://i.imgur.com/GcpL1Fs.jpeg",
+    "https://i.imgur.com/QYTwZdk.jpeg",
+    "https://i.imgur.com/4eCLw2P.jpeg",
     "https://i.imgur.com/GdTE06D.png"
 ];
 const descriptions = [
