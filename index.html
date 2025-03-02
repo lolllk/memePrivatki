@@ -3,28 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>мэмы</title>
+    <title>Мемы</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
         <h1>Огурчики приватки</h1>
     </header>
+    
     <main class="gallery">
-        <!-- Карточки будут добавлены скриптом -->
+        <!-- Карточки будут добавляться скриптом -->
     </main>
+    
+    <div class="upload-form">
+        <h2>Добавить мем</h2>
+        <input type="text" id="imageUrl" placeholder="Вставьте ссылку на изображение (Imgur)">
+        <input type="text" id="description" placeholder="Название">
+        <button id="publish" disabled>Опубликовать</button>
+    </div>
+    
     <footer class="footer">
-        © 2025 cvc_code
+        &copy; 2025 cvc_code
     </footer>
-
-    <!-- Модальное окно -->
+    
     <div class="modal" id="modal">
         <div class="modal-content">
             <span class="close" id="close-modal">&times;</span>
-            <!-- Контент будет вставлен через JS -->
         </div>
     </div>
-
+    
     <script src="script.js"></script>
 </body>
 </html>
